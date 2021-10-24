@@ -14,6 +14,7 @@ class NavBar extends React.Component {
             <Nav className="me-auto" style={{ float: "right" }}>
               <Nav.Link href="/home">HOME</Nav.Link>
               <Nav.Link href="/lessons">LESSONS</Nav.Link>
+              <Nav.Link href="/issues">ISSUES</Nav.Link>
               <Nav.Link href="https://github.com/aeoloth">Github</Nav.Link>
             </Nav>
           </Container>

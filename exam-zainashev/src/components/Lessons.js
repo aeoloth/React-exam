@@ -16,6 +16,8 @@ const Lessons = (props) => {
   let match = useRouteMatch();
   {
     return (
+      <>
+      <h2 className="display-12">Уроки</h2>
       <BrowserRouter>
         <div>
           <ListGroup as="ul" bg="dark" variant="dark" className="links">
@@ -40,7 +42,7 @@ const Lessons = (props) => {
             ))}
           </Switch>
         </div>
-      </BrowserRouter>
+      </BrowserRouter></>
     );
   }
 };
